@@ -18,7 +18,7 @@ This project presents a comprehensive comparative analysis of gas expenses and e
 
 - **Project Link:** [Comparative Analysis of Gas Expenses and Efficiency](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedU.tiger.dataAnalysis.highlanders.pdf)
 - **Data Sources:** Gas expense records, miles traveled, hours worked
-- **Tools Used:** Microsoft Excel for data organization, Python with matplotlib library for data visualization
+- **Tools Used:** Microsoft Excel for data organization, Python with matplotlib library for data visualization & SQL for data analysis and manipulation.
 
 ## Conclusion
 
