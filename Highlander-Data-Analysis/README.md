@@ -2,7 +2,7 @@
 
 Longtime friends, Ahmed and Hossain, both Uber drivers, found themselves in the same car-buying boat. Their trusty steeds, worn thin by years of rideshare duty, were begging for retirement. The solution? A brand new 2024 Toyota Highlander XLE, a comfortable and spacious option for their passengers. But when it came to engine options, their paths diverged. Ahmed, ever the eco-conscious one, opted for the futuristic allure of the Highlander Hybrid, while Hossain stuck with the tried-and-true non-hybrid version. The price difference? A cool $5,900 (including tax). Now, both men are curious: would Ahmed's hefty investment in hybrid technology pay off in the long run? Only time, and miles driven, would tell.
 
-![Comparative Analysis of Gas Expenses and Efficiency](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/assets/132733865/d1b5af78-98bc-4ccd-ae3d-c7fcf9da3cc7)
+![IMAGE - Comparative Analysis of Gas Expenses and Efficiency](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/assets/132733865/d1b5af78-98bc-4ccd-ae3d-c7fcf9da3cc7)
 
 ## Overview
 
