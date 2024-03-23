@@ -4,7 +4,7 @@
 
 ---
 
-**Python & SQL**: [Driver's Choice: Hybrid V. Non-Hybrid](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedTiger.dataAnalysis.highlanders.pdf): Ahmed could potentially save between $15,000.00 in gas over a four-year period compared to his friend Hossain. Find out why!
+**Python & SQL**: [Comparative Analysis of Gas Expenses and Efficiency](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedTiger.dataAnalysis.highlanders.pdf): Ahmed slashed his gas bill by up to $15,000 in 4 years - and his success inspired 20 others to follow suit! Together, they're projected to save a whopping $300,000 on gas over four years. See how it works!
 
 ---
 More available on request. Contact me via [LinkedIn](https://www.linkedin.com/in/mohtech/).
