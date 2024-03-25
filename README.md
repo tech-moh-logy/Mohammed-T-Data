@@ -1,5 +1,6 @@
 <div align="center">
-  <h1>Embark on a Journey through Mohammed TIGER's Data Analytics and Science Odyssey</h1>
+  <h2>Embark on a Journey through Mohammed TIGER's Data Analytics and Science Odyssey</h2>
+  <p>Data Analytics, Data Science, & Researches</p>
 </div>
 
 ---
