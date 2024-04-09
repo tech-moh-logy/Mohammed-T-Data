@@ -10,7 +10,7 @@ This project presents a comprehensive comparative analysis of gas expenses and e
 
 ## Findings
 
-- The comparative analysis reveals potential savings of up to $15,000 on gas expenses after a 20-month period since the initial purchase for Hybrid Toyota Highlanders.
+- The comparative analysis reveals potential savings of atleast $15,000 on gas expenses after a 20-month period since the initial purchase for Hybrid Toyota Highlanders - and this success inspired 30 others to follow suit! Together, they're projected to <b>save a whopping $600,000+</b> on gas over four years.
 - Leveraging data from multiple sources, including gas expense records, miles traveled, and hours worked, the analysis ensures accuracy and reliability.
 - Data visualizations, including bar charts and line graphs, enable clear comparison of gas expenses, average miles driven, hours worked, and gas expenses per mile for both vehicle types.
 
@@ -19,6 +19,7 @@ This project presents a comprehensive comparative analysis of gas expenses and e
 - **Project Link:** [Comparative Analysis of Gas Expenses and Efficiency](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedU.tiger.dataAnalysis.highlanders.pdf)
 - **Data Sources:** Gas expense records, miles traveled, hours worked
 - **Tools Used:** Microsoft Excel for data organization, Python with matplotlib library for data visualization & SQL for data analysis and manipulation.
+- **Data Collection Process**: For this analysis, I collected my own data over a span of seven weeks, focusing on gas expenses, mileage, driving habits, etc. The data collection process involved manual recording. By collecting firsthand data, I aimed to ensure the accuracy and relevance of the analysis to my specific research questions and objectives.
 
 ## Conclusion
 
