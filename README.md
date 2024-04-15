@@ -5,7 +5,7 @@
 
 ---
 
-**Python, SQL & Excel**: [Comparative Analysis of Gas Expenses and Efficiency | Driver's Choice](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedTiger.dataAnalysis.highlanders.pdf): Ahmed slashed his gas bill by up to $15,000 in 4 years - and his success inspired 30 others to follow suit! Together, they're projected to <b>save a whopping $600,000</b> on gas over four years. [See how it works](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedTiger.dataAnalysis.highlanders.pdf)!
+**Python, SQL & Excel**: [Comparative Analysis of Gas Expenses and Efficiency | Driver's Choice:  Qualitative and Quantitative Analysis](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedTiger.compareHighlanders.dataAnalysis.pdf): Ahmed slashed his gas bill by up to $15,000 in 4 years - and his success inspired 30 others to follow suit! Together, they're projected to <b>save a whopping $600,000</b> on gas over four years. [See how it works](https://github.com/tech-moh-logy/Mohammed-Tiger-Data-Analysis/blob/main/Highlander-Data-Analysis/mohammedTiger.compareHighlanders.dataAnalysis.pdf)!
 - **Data Collection Process**: For this analysis, I collected my own data over a span of <b>seven weeks</b>, focusing on gas expenses, mileage, driving habits, etc. The data collection process involved manual recording. By collecting firsthand data, I aimed to ensure the accuracy and relevance of the analysis to my specific research questions and objectives.
 
 <br>
