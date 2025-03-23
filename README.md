@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Data Science, AI & Research</h2>
+  <h2>Data Science, AI & Machine Learning Researches</h2>
 </div>
 
 ---
