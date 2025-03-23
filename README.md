@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>MOHAMMED | Data Science, Machine Learning & Analytics</h2>
+  <h2Data Science, AI & Research</h2>
 </div>
 
 ---
