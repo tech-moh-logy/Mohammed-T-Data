@@ -17,6 +17,10 @@ Our predictive model doesn’t just help NYC taxi drivers save $13K–$15K per y
 
 ---
 
+## Database Design: 
+
+---
+
 <sub>
   
   ### Credits
