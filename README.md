@@ -2,6 +2,7 @@
   <h1>Data Science, Database Management, AI & Machine Learning Researches</h1>
 </div>
 
+[The files on this repo are outdated and lack the other projects, so they have been moved here.](https://github.com/tech-moh-logy/Data-AI/tree/main)
 ---
 
 ## Driver's Choice: 
