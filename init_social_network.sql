@@ -1,11 +1,11 @@
 -- Drop the database if it exists
-DROP DATABASE IF EXISTS Users;
+DROP DATABASE IF EXISTS SocialMediaApp;
 
 -- Create the database if it doesn't already exist
-CREATE DATABASE IF NOT EXISTS Users;
+CREATE DATABASE IF NOT EXISTS SocialMediaApp;
 
 -- Use the newly created database
-USE Users;
+USE SocialMediaApp;
 
 -- ================================
 -- USERS TABLE: Stores basic user info
@@ -34,7 +34,7 @@ CREATE TABLE Tweet (
 -- =====================================
 -- HASHTAG TABLE: Stores unique hashtags
 -- =====================================
-CREATE TABLE Hashtag (
+CREATE TABLE Hashtags (
   hashtag_id INT AUTO_INCREMENT PRIMARY KEY,
   hashtag_name VARCHAR(50) UNIQUE NOT NULL
 );
@@ -69,46 +69,46 @@ CREATE TABLE TweetHashtag (
   hashtag_id INT NOT NULL,
   PRIMARY KEY (tweet_id, hashtag_id),
   FOREIGN KEY (tweet_id) REFERENCES Tweet(tweet_id),
-  FOREIGN KEY (hashtag_id) REFERENCES Hashtag(hashtag_id)
+  FOREIGN KEY (hashtag_id) REFERENCES Hashtags(hashtag_id)
 );
 
 -- ======================================
 -- SAMPLE DATA INSERTIONS
 -- ======================================
 
--- Insert example users
-INSERT INTO Users (user_id, full_name, username, email, password, profile, is_private) VALUES
-  (1, 'Mariam Khalil', 'mariamkhalil', 'khalil@email.com', 'password123', 'I love tweeting!', FALSE),
-  (2, 'Mel Smith', 'melsmith', 'smith@email.com', 'password456', 'Tweeting enthusiast', FALSE),
-  (3, 'Bob Johnson', 'bobjohnson', 'bob@email.com', 'password789', NULL, TRUE);
+-- Inserting sample users into the Users table
+INSERT INTO Users (full_name, username, email, password, profile, is_private) VALUES
+  ('Sophia Ramirez', 'soph_ram', 'sophia@email.com', 'hashed_password_123', 'Passionate about coding and tech!', FALSE),
+  ('Jason Lee', 'jason_lee', 'jason@email.com', 'hashed_password_456', 'Tech enthusiast and aspiring developer', FALSE),
+  ('Rachel Adams', 'rachel_adams', 'rachel@email.com', 'hashed_password_789', NULL, TRUE);
 
--- Insert example hashtags
-INSERT INTO Hashtag (hashtag_id, hashtag_name) VALUES
-  (1, '#newusertoKhourytwitter'),
-  (2, '#MondayMotivation'),
-  (3, '#NEU');
+-- Inserting sample hashtags into the Hashtags table
+INSERT INTO Hashtags (hashtag_name) VALUES
+  ('#TechForEveryone'),
+  ('#CodeIsLife'),
+  ('#InspirationDaily');
 
--- Insert example tweets
-INSERT INTO Tweet (tweet_id, user_id, content, time_tweeted) VALUES
-  (1, 1, 'My first tweet! #newusertoKhourytwitter', '2023-10-01 12:00:00'),
-  (2, 2, 'Good morning everyone! #MondayMotivation', '2023-02-06 09:15:00'),
-  (3, 1, 'Excited to be at #NEU!', '2023-11-01 08:30:00');
+-- Inserting sample tweets
+INSERT INTO Tweet (user_id, content, time_tweeted) VALUES
+  (1, 'Learning new coding languages! #TechForEveryone', '2023-10-01 14:30:00'),
+  (2, 'Morning thoughts on innovation! #CodeIsLife', '2023-11-05 08:00:00'),
+  (3, 'Find inspiration in every challenge. #InspirationDaily', '2023-12-10 07:45:00');
 
--- Link tweets to hashtags
+-- Linking tweets to hashtags
 INSERT INTO TweetHashtag (tweet_id, hashtag_id) VALUES
   (1, 1),
   (2, 2),
   (3, 3);
 
--- Insert follow relationships
+-- Inserting follow relationships
 INSERT INTO Follow (follower_id, followee_id) VALUES
-  (1, 2), -- Mariam follows Mel
-  (2, 1); -- Mel follows Mariam
+  (1, 2), -- Sophia follows Jason
+  (2, 1); -- Jason follows Sophia
 
--- Insert likes
-INSERT INTO LikeTweet (like_id, user_id, tweet_id) VALUES
-  (1, 2, 1),
-  (2, 1, 2);
+-- Inserting likes on tweets
+INSERT INTO LikeTweet (user_id, tweet_id) VALUES
+  (2, 1), -- Jason likes Sophia's tweet
+  (3, 2); -- Rachel likes Jason's tweet
 
 -- =========================================
 -- ANALYTICS QUERIES
@@ -124,14 +124,14 @@ GROUP BY f.followee_id
 ORDER BY total_followers DESC
 LIMIT 1;
 
--- 2. For a specific user, list the 5 most recent tweets containing the hashtag "#NEU"
+-- 2. For a specific user, list the 5 most recent tweets containing the hashtag "#InspirationDaily"
 SELECT 
   t.tweet_id,
   t.content,
   t.time_tweeted
 FROM Tweet t
 JOIN TweetHashtag th ON t.tweet_id = th.tweet_id
-JOIN Hashtag h ON th.hashtag_id = h.hashtag_id
-WHERE t.user_id = 1 AND h.hashtag_name = '#NEU'
+JOIN Hashtags h ON th.hashtag_id = h.hashtag_id
+WHERE t.user_id = 3 AND h.hashtag_name = '#InspirationDaily'
 ORDER BY t.time_tweeted DESC
 LIMIT 5;
